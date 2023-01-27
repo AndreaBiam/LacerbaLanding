@@ -1,0 +1,166 @@
+  /* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ <!--qui bisonga selezionare la classe aa cui vogliamo assegnare questo font es. 
+ // bodyy { e mettiamo il codice css   } -->
+body{
+font-family: 'Raleway', sans-serif;
+
+}
+
+nav ul a,
+nav .brand-logo /*fa riferimento al logo percjè gli abbiamo assegnato una classe */{
+  color: #444;
+  padding-left:50px;
+  padding-right: 50px;
+}
+.brand-logo{
+  font-family: 'Satisfy', cursive;
+
+  
+
+}
+
+p {
+  line-height: 2rem; 
+}
+
+.sidenav-trigger {
+  color: #ef3550;
+
+}
+
+
+.parallax-container {
+
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.section-intro{
+  height: 100%;
+  width: 100%;
+}
+ 
+
+.header{
+  margin-top: 15%;
+}
+
+.header-subtitle{
+
+  margin-top: 5%;
+  font-size: 1,5em; 
+}
+.col-servizio{
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+   }
+  .nav-wrapper{
+    padding: 0 50 px;
+}
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+
+  }
+  .nav-wrapper{
+    padding: 0 10 px;
+}
+ 
+}
+ 
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+
+}
+
+.btn-registrazione{
+  width: 100%;
+}
+
+#servizio h5{
+font-size: 1.6em;
+line-height: 1.6em;
+}
+#servizio h6{
+font-size:1.2em;
+
+}
+
+.section-registrazione{
+  width: 100%;
+  height: 100%;
+}
+
+.registrazione-icon{
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #3D5467; 
+}
+
+.ospita-icon
+{
+  font-size: 7em;
+  margin-top: 60px;
+  
+}
+
+.ospita-subtitle{
+font-size: 1.3em;
+margin-top: 5%;
+line-height: 2em;
+
+}
+
+.social-icon{
+font-size: 1.5em;
+color: white;
+padding-left: 15px;
+
+
+}
+
+.social-icon:hover{
+  color:#ef3550; effetto ombra
+}
+
+
+
+
